@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#box{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	background: #DDDDDD;
+	overflow: hidden;
+	position: relative;
+}
+#box .btns{
+	width: 50px;
+	height: 30px;
+	float: right;
+}
+#box .text {
+	width: 100%;
+	height: 470px;
+	background: #CCCCCC;
+}
+#box .ac{
+	width: 300px;
+	height: 300px;
+	background: #FFFFFF;
+	position: absolute;
+	text-align: center;
+	/* left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto; */
+	display: none;
+	
+}
+#box .ac h3{
+	text-align: center;
+	/* position: absolute; */
+}
+#box .ac p{
+	padding: 14px;
+	width: 100px;
+	background: #008000;
+	border: 1px solid;
+	margin-left: 95px;
+}
+#box .ac textarea{
+	width: 250px;
+	height: 150px;
+}
+#box .biaoti{
+	height: 30px;
+	background: #23A26B;
+}
